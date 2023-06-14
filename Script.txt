@@ -1,0 +1,7 @@
+swift package \
+    --allow-writing-to-directory "../../Docs/MetalUI Docs/docs" \
+    generate-documentation --target MetalUI \
+    --disable-indexing \
+    --transform-for-static-hosting \
+    --hosting-base-path MetalUI-Docs \
+    --output-path "../../Docs/MetalUI Docs/docs"
